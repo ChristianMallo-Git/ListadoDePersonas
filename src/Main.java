@@ -54,11 +54,11 @@ public class Main {
     private static void crearPersona() {
 
         System.out.println("Introduce el nombre de la persona:");
-        String nombre = consola.next();
+        String nombre = consola.next(); //----->Mirar la forma de controlar la excepción si no introduzco un nombre
         System.out.println("Introduce el número de teléfono de la persona:");
-        String tel = consola.next();
+        String tel = consola.next();//----->Mirar la forma de controlar la excepción si no introduzco un tele y cambiar a nextInt
         System.out.println("Introduce el email de la persona:");
-        String email = consola.next();
+        String email = consola.next();//----->Mirar la forma de controlar la excepción si no introduzco un email
 
         Persona persona = new Persona(nombre, tel, email);
 
